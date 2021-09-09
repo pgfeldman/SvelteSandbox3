@@ -34,7 +34,7 @@
 	<h1>Components:</h1>
 	<nav>
 		{#each data as d}
-			<Link to={d.link}>{d.text}</Link>
+			<h2><Link to={d.link}>{d.text}</Link></h2>
 		{/each}
 	</nav>
 

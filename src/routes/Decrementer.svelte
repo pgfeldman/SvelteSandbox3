@@ -1,5 +1,5 @@
 <script>
-    import { count } from '../stores.js';
+    import { count } from '../stores';
 
     function decrement() {
         count.update(n => n - 1);

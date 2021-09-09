@@ -1,6 +1,6 @@
 <script>
     import { onDestroy } from 'svelte';
-    import { count } from '../stores.js';
+    import { count } from '../stores.ts';
     import Incrementer from './Incrementer.svelte';
     import Decrementer from './Decrementer.svelte';
     import Resetter from './Resetter.svelte';
